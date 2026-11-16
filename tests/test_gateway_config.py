@@ -3,7 +3,7 @@ from unittest.mock import patch
 
 import pytest
 
-from backend.app.services.provider_gateway import (
+from app.services.provider_gateway import (
     LocalBrainUnavailable,
     _openai_config,
     provider_runtime_status,
